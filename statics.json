@@ -1,0 +1,229 @@
+[
+ {
+  "age": {
+   "moyenne": 41.17009511170095,
+   "taille": 4521,
+   "somme": 186130,
+   "median": 39,
+   "mode": 34,
+   "minimum": 19,
+   "maximum": 87,
+   "etendu": 68,
+   "variance": 111.85623824316416
+  }
+ },
+ {
+  "job": {
+   "taille": 4521,
+   "mode": "management",
+   "frequence": {
+    "unemployed": 128,
+    "services": 417,
+    "management": 969,
+    "blue-collar": 946,
+    "self-employed": 183,
+    "technician": 768,
+    "entrepreneur": 168,
+    "admin.": 478,
+    "student": 84,
+    "housemaid": 112,
+    "retired": 230,
+    "unknown": 38
+   },
+   "unique-value": []
+  }
+ },
+ {
+  "marital": {
+   "taille": 4521,
+   "mode": "married",
+   "frequence": {
+    "married": 2797,
+    "single": 1196,
+    "divorced": 528
+   },
+   "unique-value": []
+  }
+ },
+ {
+  "education": {
+   "taille": 4521,
+   "mode": "secondary",
+   "frequence": {
+    "primary": 678,
+    "secondary": 2306,
+    "tertiary": 1350,
+    "unknown": 187
+   },
+   "unique-value": []
+  }
+ },
+ {
+  "default": {
+   "taille": 4521,
+   "mode": "no",
+   "frequence": {
+    "no": 4445,
+    "yes": 76
+   },
+   "unique-value": []
+  }
+ },
+ {
+  "balance": {
+   "moyenne": 1422.6578190665782,
+   "taille": 4521,
+   "somme": 6431836,
+   "median": 444,
+   "mode": 0,
+   "minimum": -3313,
+   "maximum": 71188,
+   "etendu": 74501,
+   "variance": 9057921.74859427
+  }
+ },
+ {
+  "housing": {
+   "taille": 4521,
+   "mode": "yes",
+   "frequence": {
+    "no": 1962,
+    "yes": 2559
+   },
+   "unique-value": []
+  }
+ },
+ {
+  "loan": {
+   "taille": 4521,
+   "mode": "no",
+   "frequence": {
+    "no": 3830,
+    "yes": 691
+   },
+   "unique-value": []
+  }
+ },
+ {
+  "contact": {
+   "taille": 4521,
+   "mode": "cellular",
+   "frequence": {
+    "cellular": 2896,
+    "unknown": 1324,
+    "telephone": 301
+   },
+   "unique-value": []
+  }
+ },
+ {
+  "day": {
+   "moyenne": 15.915284229152842,
+   "taille": 4521,
+   "somme": 71953,
+   "median": 16,
+   "mode": 20,
+   "minimum": 1,
+   "maximum": 31,
+   "etendu": 30,
+   "variance": 68.02401634065609
+  }
+ },
+ {
+  "month": {
+   "taille": 4521,
+   "mode": "may",
+   "frequence": {
+    "oct": 80,
+    "may": 1398,
+    "apr": 293,
+    "jun": 531,
+    "feb": 222,
+    "aug": 633,
+    "jan": 148,
+    "jul": 706,
+    "nov": 389,
+    "sep": 52,
+    "mar": 49,
+    "dec": 20
+   },
+   "unique-value": []
+  }
+ },
+ {
+  "duration": {
+   "moyenne": 263.96129174961294,
+   "taille": 4521,
+   "somme": 1193369,
+   "median": 185,
+   "mode": 123,
+   "minimum": 4,
+   "maximum": 3025,
+   "etendu": 3021,
+   "variance": 67525.46951903898
+  }
+ },
+ {
+  "campaign": {
+   "moyenne": 2.793629727936297,
+   "taille": 4521,
+   "somme": 12630,
+   "median": 2,
+   "mode": 1,
+   "minimum": 1,
+   "maximum": 50,
+   "etendu": 49,
+   "variance": 9.670897463753223
+  }
+ },
+ {
+  "pdays": {
+   "moyenne": 39.766644547666445,
+   "taille": 4521,
+   "somme": 179785,
+   "median": -1,
+   "mode": -1,
+   "minimum": -1,
+   "maximum": 871,
+   "etendu": 872,
+   "variance": 10024.239559734024
+  }
+ },
+ {
+  "previous": {
+   "moyenne": 0.5425790754257908,
+   "taille": 4521,
+   "somme": 2453,
+   "median": 0,
+   "mode": 0,
+   "minimum": 0,
+   "maximum": 25,
+   "etendu": 25,
+   "variance": 2.8681534353939235
+  }
+ },
+ {
+  "poutcome": {
+   "taille": 4521,
+   "mode": "unknown",
+   "frequence": {
+    "unknown": 3705,
+    "failure": 490,
+    "other": 197,
+    "success": 129
+   },
+   "unique-value": []
+  }
+ },
+ {
+  "y": {
+   "taille": 4521,
+   "mode": "no",
+   "frequence": {
+    "no": 4000,
+    "yes": 521
+   },
+   "unique-value": []
+  }
+ }
+]

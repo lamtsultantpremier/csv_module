@@ -1,5 +1,7 @@
 from dataclasses import dataclass,field
 from column import ColumnData
+import csv
+import json
 @dataclass
 class ClientData:
     column:list
@@ -23,4 +25,28 @@ class ClientData:
         pass
 
     def save_data(self,format:str):
-        pass
+        if format=="json":
+            with open("client_data.json",mode="a") as file: 
+                json.dump(self.to_dict(),file)
+        elif format=="csv":
+            data_colums_values=self.columns_data
+            csv_header=[]
+            csv_data=[]
+            csv_content=[]
+            for key,value in data_colums_values.items():
+                csv_header.append(key)
+                csv_content.append(value.data)
+            csv_data=[list(client) for client in zip(*csv_content)]
+            with open("client_data.csv",mode="a") as file:
+                writer=csv.writer(file)
+                writer.writerow(csv_header)
+                writer.writerows(csv_data)
+
+    def to_dict(self):
+        return{
+            "column":self.column,
+            "dimension":list(self.dimension),
+            "columns_data":{
+                key:col.to_dict() for key,col in self.columns_data.items()
+            }
+        }
